@@ -1,0 +1,7 @@
+selenium
+webdriver-manager
+key
+By
+Options
+os
+requests
