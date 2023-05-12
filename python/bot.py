@@ -10,7 +10,7 @@ bolinha_notificacao, contato_cliente, caixa_msg, msg_cliente,caixa_de_pesquisa,p
 driver = editacodigo_whats.carregar_pagina_whatsapp('zap/sessao', 'https://web.whatsapp.com/')
 
 ####################### VARIAVEIS PRINCIPAIS ############################
-usuario = 'administrador_loja@igreen.eco.br'
+usuario = 'frankoliveiradev@gmail.com'
 
 pagina = 'http://localhost/curso_bot/api/recebe.php?'
 
