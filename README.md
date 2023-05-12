@@ -1,17 +1,41 @@
-# Projeto: Robô Vendedor do WhatsApp
+# Fixed Responsive Nav
 
-### Descrição:
+### Responsive, fixed and touch friendly one page navigation, using [Responsive Nav](http://responsive-nav.com/), smooth animated scrolling & vanilla JavaScript. Similar to the solution we are using on [Adtile’s site](http://www.adtile.me/).
 
-Este projeto é um Chat Bot que funciona no WhatsApp e tem a função de realizar a venda de 2 produtos cadastrados para os contatos que interagir com o Bot. As informações do produto, dos gestores da plataforma, dos clientes e das mensagens enviadas e recebidas ficam armazenadas em um Banco de Dados. Além disso, o projeto conta com um Painel de Configuração do Bot para facilitar o controle dos gestores da plataforma.
+To see the source code, open up [fixed-responsive-nav.js](https://github.com/adtile/fixed-nav/blob/master/js/fixed-responsive-nav.js) located under the "js" folder. The file should be pretty well commented out to explain what’s happening on each line. If you have any questions or problems, [tweet to us](http://twitter.com/adtileHQ)! This project is built using progressive enhancement and tested to be working on Internet Explorer 6 and up.
 
+You are free to use the JavaScript, styles and the icon fonts provided here in your own project. Commercial or non-commercial.
+
+
+
+# Features
+
+* Fixed positioned, always visible navigation bar
+* Uses vanilla JavaScript, no jQuery required
+* Smooth animated scrolling
+* Removes 300ms tap delay
+* Adds a mask over the content when navigation is open
+* Auto highlights current location
+* Uses a tiny custom font for icons (only two characters included)
+* Closes the navigation when user tap's outside of it
+* Tapping a link changes the URL, so you can still copy/paste it and link to different sections
+* Built progressive enhancement in mind
+
+
+
+# Live example
+
+* There’s a live example here, take a look: [http://www.adtile.me/fixed-nav/](http://www.adtile.me/fixed-nav/)
+* Alternatively, you can also try the navigation [on our site](http://www.adtile.me/) which uses similar approach
+
+
+
+# Working on the project
+
+Doesn’t require any setting up, just clone the repository and open [index.html](https://github.com/adtile/fixed-nav/blob/master/index.html) in your favorite browser. If you are using OS X, you can start a server from your command line using the following command, and then view the page at [http://localhost:8000](http://localhost:8000):
 
 ```sh
--> Achou interessante?
-    #Entre em contato conosco...
-
-*Desenvolvedores*
--> Patrick Neri de Oliveira
--> Frank Augusto Neri de Oliveira
+python -m SimpleHTTPServer 8000
 ```
 
 
