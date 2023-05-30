@@ -38,7 +38,7 @@ if($total_clientes > 0){
 
     if(!$query) {
 
-        echo "DEU ERRO NAS INFORMAÇÕES";
+        echo "<meta http-equiv='refresh' content='0;url=erro_cadastro.php'>";
 
     } else {
 

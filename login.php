@@ -16,9 +16,9 @@
     <div align="center"><img src="insta.png"  height="150" width="150"></div>
     <br>
 
-    <form class="login-form" action='index.php'> 
-      <input type="text" placeholder="Seu email"/>
-      <input type="password" placeholder="senha"/>
+    <form class="login-form" action='autenticar.php' method="post"> 
+      <input type="text" placeholder="Seu email" id="email" name="email"/>
+      <input type="password" placeholder="senha" id="senha" name="senha"/>
       <button>ENTRAR</button>
       <p class="message">Não tenho conta <a href="cadastro.php">Clica aqui</a></p>
      </form>

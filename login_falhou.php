@@ -13,6 +13,7 @@
 
 <div class="login-page">
   <div class="form">
+    <div align="center"> <b><h2>erro no login</h2></b></div>
     <div align="center"><img src="insta.png"  height="150" width="150"></div>
     <br>
     <form class="login-form" onsubmit="return verificaSenhas()"  action="cadastro2.php"  method="post">
@@ -21,7 +22,7 @@
   <input type="password" id="confirmar_senha" placeholder="CONFIRMAR SENHA" name="confirmar_senha" required>
       <input type="text" placeholder="EMAIL" name="email" id ="email"/>
       <button>Criar Conta</button>
-      <p class="message">Já é registrado <a href="login.php">JOOS</a></p>
+      <p class="message">Já é registrado <a href="login.php"> entre aqui!</a></p>
     </form>
    
 <script>
